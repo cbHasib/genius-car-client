@@ -67,7 +67,7 @@ const sliders = [
 
 const Banner = () => {
   return (
-    <div className="px-5">
+    <div>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -80,7 +80,7 @@ const Banner = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper max-w-6xl rounded-[10px]"
+        className="mySwiper rounded-[10px]"
       >
         {sliders.map((slider) => (
           <SwiperSlide key={slider.id}>
@@ -92,10 +92,10 @@ const Banner = () => {
                 </h2>
                 <p className="my-7 lg:w-10/12">{slider.subtitle}</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-1 max-w-sm mx-auto lg:mx-0">
-                  <button className="btn btn-primary lg:mr-3 mb-2 lg:mb-0 max-sm:btn-wide">
+                  <button className="btn btn-primary lg:mr-3 mb-2 lg:mb-0 max-sm:btn-wide text-white">
                     Discover More
                   </button>
-                  <button className="btn btn-outline text-white hover:btn-primary max-sm:btn-wide ">
+                  <button className="btn btn-outline text-white hover:btn-primary max-sm:btn-wide">
                     Latest Project
                   </button>
                 </div>
