@@ -11,9 +11,9 @@ const ServiceCard = () => {
         />
       </figure>
       <div className="mt-5">
-        <h2 className="text-[#444444] font-bold text-xl">Electrical System</h2>
+        <h2 className="text-[#444444] font-bold text-2xl">Electrical System</h2>
         <div className="flex justify-between mt-5 text-primary">
-          <p className="font-semibold text-lg">Price : $20.00</p>
+          <p className="font-semibold text-xl">Price : $20.00</p>
           <svg
             width="24"
             height="25"
