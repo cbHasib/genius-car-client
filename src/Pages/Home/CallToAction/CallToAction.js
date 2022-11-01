@@ -5,7 +5,7 @@ import location from "../../../assets/icons/location.svg";
 
 const CallToAction = () => {
   return (
-    <div className="bg-[#151515] py-24 px-16 my-32 rounded-[10px] text-white flex justify-between">
+    <div className="bg-[#151515] py-24 px-16 my-32 rounded-[10px] text-white flex justify-between flex-col gap-10 md:gap-5 items-center md:flex-row">
       <div className="flex justify-center items-center gap-5">
         <img src={calender} alt="" />
         <div>
