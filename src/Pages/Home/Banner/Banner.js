@@ -18,7 +18,7 @@ import slider3 from "../../../assets/images/banner/3.jpg";
 import slider4 from "../../../assets/images/banner/4.jpg";
 import slider5 from "../../../assets/images/banner/5.jpg";
 import slider6 from "../../../assets/images/banner/6.jpg";
-import "./Banner.css";
+
 
 const sliders = [
   {
@@ -95,7 +95,7 @@ const Banner = () => {
                   <button className="btn btn-primary lg:mr-3 mb-2 lg:mb-0 max-sm:btn-wide text-white">
                     Discover More
                   </button>
-                  <button className="btn btn-outline text-white hover:btn-primary max-sm:btn-wide">
+                  <button className="btn btn-outline text-white hover:btn-primary max-sm:btn-wide;">
                     Latest Project
                   </button>
                 </div>
